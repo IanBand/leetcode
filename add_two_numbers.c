@@ -45,7 +45,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
             cur2 = cur2->next;
         }
       
-        
+        // this is just your basic ripple carry algorithm/logic
         acc += carry;
         
         curSum->val = acc % 10;
